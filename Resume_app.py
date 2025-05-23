@@ -4,7 +4,7 @@ import joblib
 from textblob import TextBlob
 import os
 import sys
-from Resume_classifier import extract_text, extract_skills
+from models_utils import extract_text, extract_skills
 
 model = joblib.load("resume_classifier_model.sav")
 st.title("Smart Resume Screening Tool")
