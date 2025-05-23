@@ -1,9 +1,6 @@
 import streamlit as st
-import pandas as pd
 import joblib
 from textblob import TextBlob
-import os
-import sys
 from models_utils import extract_text, extract_skills
 
 model = joblib.load("resume_classifier_model.sav")
