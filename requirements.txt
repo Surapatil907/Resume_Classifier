@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+pandas
+textblob
+python-docx
+PyPDF2
+nltk
+docx2txt
+joblib
