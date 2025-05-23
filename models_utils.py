@@ -21,3 +21,5 @@ def extract_skills(text):
     text = text.lower()
     skills_found = [skill for skill in skill_keywords if skill in text]
     return skills_found
+if __name__ == "__main__":
+    train_and_save_model()
