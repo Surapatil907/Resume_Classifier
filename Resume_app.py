@@ -6,7 +6,7 @@ import os
 import sys
 from Resume_classifier import extract_text, extract_skills
 
-model = joblib.load("resume_classifier.pkl")
+model = joblib.load("resume_classifier_model.sav")
 st.title("Smart Resume Screening Tool")
 uploaded_file = st.file_uploader("Upload a resume (PDF, DOCX, or TXT)", type=["pdf", "docx", "txt"])
 
